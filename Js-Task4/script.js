@@ -24,13 +24,14 @@ let products = [
   ]
   
   const priceSort = products.sort((a,b)=>a.price - b.price);
+  const ForEach = products.forEach((x)=>console.log(x.brand,x.price))
   console.log(products)
 
 // 2. Beş random eded yaradib arraya yigin, sonda ise onlarin cemini gosterin
 
 // let array = [];
 // for(i=0; i<5; i++){
-// array.push(Math.floor(Math.random(i) *100 )+1);
+// array.push(Math.floor(Math.random(i) *100 ) + 1);
 
 // }
 // console.log(array)
